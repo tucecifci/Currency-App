@@ -12,8 +12,8 @@ body{
     height: 300px;
     width: 600px;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 9px, rgba(0, 0, 0, 0.23) 0px 6px 9px;
-   
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .title{
     margin-bottom: 50px;
@@ -40,11 +40,18 @@ body{
 }
 .exchange-btn{
     padding: 10px;
+
+    font-size: medium;
+    letter-spacing: 1px;
     border: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
+    background-color: black;
+    color:#549F3B;
+    font-weight: 600;
+    cursor: pointer;
+}
+.exchange-btn:hover{
     background-color: #549F3B;
     color: #fff;
-    font-weight: 500;
-    cursor: pointer;
 }
